@@ -401,8 +401,8 @@ article div h3{
 }
 
 .color-container {
-  border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
+  border-color: var(--light-purple);
+  background: var(--black);
 }
 
 .project-img {
@@ -413,11 +413,11 @@ article div h3{
 
 .project-title {
   margin: 1rem;
-  color: black;
+  color: var(--text-color);
 }
 
 .project-btn {
-  color: black;
+  color: white;
   border-color: rgb(163, 163, 163);
 }
 
